@@ -1,9 +1,10 @@
 import React from 'react';
-import ProTesting from './ProTesting';
+import Counter from './components/counter';
+
 
 function App() {
   return (
-    <ProTesting />
+    <Counter.jsx />
   );
 }
 
