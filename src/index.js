@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //import App from './App';
 import 'bootstrap/dist/css/bootstrap.css';
-import Counters from "./components/counters";
+
+import Counterz from "./components/table";
+
 
 
 //ReactDOM.render(
@@ -12,5 +14,5 @@ import Counters from "./components/counters";
 //  document.getElementById('root')
 //);
 //^ the same clode as below can be wrriten as above
-ReactDOM.render(<Counters/>, document.getElementById('root'));
+ReactDOM.render(<Counterz/>, document.getElementById('root'));
 
